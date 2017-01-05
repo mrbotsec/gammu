@@ -1,0 +1,20 @@
+[gammu]
+port = com6:
+connection = at115200
+
+[smsd]
+service = mysql
+logfile = C:\xampp\htdocs\smsgw\daemon\bin\log.txt
+debuglevel = 0
+phoneid = Modem1
+commtimeout = 30
+sendtimeout = 600
+checksecurity = 0
+PIN = 1234
+DeliveryReport = log
+
+
+pc = localhost
+user = root
+password = bismillah
+database = smsgw

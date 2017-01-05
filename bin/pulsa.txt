@@ -1,0 +1,3 @@
+USSD received
+Status               : Terminated
+Service reply        : "Paket SMS: 1649 sms. Pulsa INTERNET Rp0 sd -."

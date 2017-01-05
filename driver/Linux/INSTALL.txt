@@ -1,0 +1,21 @@
+Q:  How to install PL-2303 Linux driver and compile?  
+  
+A:  1. Under root folder, create a new folder and copy PL-2303 source code to new folder.
+
+2. Open "Makefile" with GEDIT or KATE under new folder.
+
+3. Modify line 5 "KINCLUDES=/usr/src/linux/include".
+Example: "KINCLUDES=/usr/src/linux-2.4.7-10/include". 
+You could find folder name on Linux.
+
+4. Open terminal mode and login root user.
+
+5. Go to the new folder and then type "make all" to compile the PL-2303 source code. This will create two files: "pl2303.o" and "usbserial.o".
+
+6. Type "make inst" that will install the PL-2303 Linux driver into Linux.
+
+7. Plug the PL-2303 cable into USB port and key-in "dmesg", it will show "Prolific USB Serial Adapter converter now attached to ttyUSB0 (orusb/tts/0 for devfs)". This means the cable is now working under Linux.
+
+Note: You must login into root user in order to successfully compile and install.
+
+ 

@@ -1,0 +1,19 @@
+[gammu]
+port = com1:
+connection = at115200
+
+[smsd]
+service = sql
+driver = native_mysql
+logfile = logsmsdrc1
+debuglevel = 0
+phoneid = modem1
+commtimeout = 30
+sendtimeout = 600
+checksecurity = 0
+PIN = 1234
+
+pc = localhost
+user = root
+password = bismillah
+database = smsgw
