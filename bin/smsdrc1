@@ -16,5 +16,5 @@ DeliveryReport = log
 
 pc = localhost
 user = root
-password = bismillah
-database = smsgw
+password = password
+database = database
